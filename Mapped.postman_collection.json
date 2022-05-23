@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "fb5d76d9-ae71-4aea-9008-d8589198ec98",
+		"name": "Mapped",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16159452"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Read All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/users/read.php",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"users",
+								"read.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/users/read_by_id.php/?user_id=14",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"users",
+								"read_by_id.php",
+								""
+							],
+							"query": [
+								{
+									"key": "user_id",
+									"value": "14"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/users/read_by_email.php/?email=ahmed@merce.com",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"users",
+								"read_by_email.php",
+								""
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "ahmed@merce.com"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Token",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/users/read_by_token.php/?token=49aefa98ac5dd56",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"users",
+								"read_by_token.php",
+								""
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "49aefa98ac5dd56"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Ahmed Hassan\",\n    \"email\": \"hassan@merce.com\",\n    \"password\": \"pass124\",\n    \"phone\": \"666666666\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/users/create.php",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"users",
+								"create.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cities",
+			"item": [
+				{
+					"name": "Read All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/cities/read.php",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"cities",
+								"read.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Communities",
+			"item": [
+				{
+					"name": "Read All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/communities/read.php",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"communities",
+								"read.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/communities/read_by_id.php/?community_id=10",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"communities",
+								"read_by_id.php",
+								""
+							],
+							"query": [
+								{
+									"key": "community_id",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/communities/read_by_name.php/?name=Cataluña",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"communities",
+								"read_by_name.php",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Cataluña"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Cataluña\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/communities/create.php",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"communities",
+								"create.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
