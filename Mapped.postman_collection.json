@@ -178,6 +178,62 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Read by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/cities/read_by_id.php?city_id=14",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"cities",
+								"read_by_id.php"
+							],
+							"query": [
+								{
+									"key": "city_id",
+									"value": "14"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/cities/read_by_name.php?name=Barcelona",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"cities",
+								"read_by_name.php"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Barcelona"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -293,6 +349,176 @@
 								"api",
 								"communities",
 								"create.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Provinces",
+			"item": [
+				{
+					"name": "Read All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/provinces/read.php",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"provinces",
+								"read.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/provinces/read_by_id.php/?province_id=19",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"provinces",
+								"read_by_id.php",
+								""
+							],
+							"query": [
+								{
+									"key": "province_id",
+									"value": "19"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/provinces/read_by_name.php/?name=Barcelona",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"provinces",
+								"read_by_name.php",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Barcelona"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Travels",
+			"item": [
+				{
+					"name": "Read All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/provinces/read.php",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"provinces",
+								"read.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/travels/read_by_id.php/?travel_id=19",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"travels",
+								"read_by_id.php",
+								""
+							],
+							"query": [
+								{
+									"key": "travel_id",
+									"value": "19"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read by Id Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mapped-backend-kdjbm.ondigitalocean.app/api/travels/read_by_user_id.php/?user_id=13",
+							"protocol": "https",
+							"host": [
+								"mapped-backend-kdjbm",
+								"ondigitalocean",
+								"app"
+							],
+							"path": [
+								"api",
+								"travels",
+								"read_by_user_id.php",
+								""
+							],
+							"query": [
+								{
+									"key": "user_id",
+									"value": "13"
+								}
 							]
 						}
 					},
